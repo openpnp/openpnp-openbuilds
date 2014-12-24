@@ -8,3 +8,5 @@ Hiwin
 http://grabcad.com/tony--38
     http://grabcad.com/library/5mm-bearing-skf-625-rs-286-7811
 
+V-Slot CAD Models for Autodesk Inventor, JonHollander
+	http://www.openbuilds.com/resources/v-slot-cad-models-for-autodesk-inventor.4/
