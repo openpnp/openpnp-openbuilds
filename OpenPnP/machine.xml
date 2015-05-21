@@ -1,0 +1,84 @@
+<openpnp-machine>
+   <machine class="org.openpnp.machine.reference.ReferenceMachine">
+      <heads>
+         <head class="org.openpnp.machine.reference.ReferenceHead" id="22964dce-252a-453e-8106-65db104a0763" name="H1">
+            <nozzles>
+               <nozzle class="org.openpnp.machine.reference.ReferenceNozzle" id="69edd567-df6c-495a-9b30-2fcbf5c9742f" name="N1" pick-dwell-milliseconds="250" place-dwell-milliseconds="250" current-nozzle-tip-id="e092921a-2eef-449b-b340-aa3f40d8d791" changer-enabled="false" limit-rotation="false">
+                  <nozzle-tips>
+                     <nozzle-tip class="org.openpnp.machine.reference.ReferenceNozzleTip" id="e092921a-2eef-449b-b340-aa3f40d8d791" name="NT1" allow-incompatible-packages="false">
+                        <compatible-package-ids class="java.util.HashSet">
+                           <id>R0603</id>
+                           <id>SOT23-3</id>
+                           <id>R0805</id>
+                        </compatible-package-ids>
+                        <changer-start-location units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="0.0"/>
+                        <changer-mid-location units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="0.0"/>
+                        <changer-end-location units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="0.0"/>
+                     </nozzle-tip>
+                  </nozzle-tips>
+                  <head-offsets units="Millimeters" x="39.5" y="-6.4" z="-11.5" rotation="0.0"/>
+               </nozzle>
+               <nozzle class="org.openpnp.machine.reference.ReferenceNozzle" id="269edd567-df6c-495a-9b30-2fcbf5c9742f" name="N2" pick-dwell-milliseconds="250" place-dwell-milliseconds="250" current-nozzle-tip-id="2e092921a-2eef-449b-b340-aa3f40d8d791" changer-enabled="false" limit-rotation="false">
+                  <nozzle-tips>
+                     <nozzle-tip class="org.openpnp.machine.reference.ReferenceNozzleTip" id="2e092921a-2eef-449b-b340-aa3f40d8d791" name="NT1" allow-incompatible-packages="false">
+                        <compatible-package-ids class="java.util.HashSet">
+                           <id>TQFP32-08</id>
+                        </compatible-package-ids>
+                        <changer-start-location units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="0.0"/>
+                        <changer-mid-location units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="0.0"/>
+                        <changer-end-location units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="0.0"/>
+                     </nozzle-tip>
+                  </nozzle-tips>
+                  <head-offsets units="Millimeters" x="70.16" y="-6.6" z="-11.5" rotation="0.0"/>
+               </nozzle>
+            </nozzles>
+            <actuators>
+               <actuator class="org.openpnp.machine.reference.ReferenceActuator" id="5b8a8cbd-d6c1-4324-af8b-eba5f0444622" name="A1" index="0">
+                  <head-offsets units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="0.0"/>
+               </actuator>
+            </actuators>
+            <cameras>
+               <camera class="org.openpnp.machine.reference.camera.OpenCvCamera" id="90b848bc-8946-4823-abd3-1b6cb09391fe" name="OpenCvCamera" looking="Down" rotation="-1.4" device-index="0">
+                  <units-per-pixel units="Millimeters" x="0.035" y="0.035" z="0.0" rotation="0.0"/>
+                  <vision-provider class="org.openpnp.machine.reference.vision.OpenCvVisionProvider"/>
+                  <head-offsets units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="0.0"/>
+               </camera>
+            </cameras>
+         </head>
+      </heads>
+      <feeders>
+         <feeder class="org.openpnp.machine.reference.feeder.ReferenceTrayFeeder" id="3f111adb-443e-404e-8241-bc83832fb0da" name="0805" enabled="false" part-id="R0805-" tray-count-x="1" tray-count-y="40" feed-count="16">
+            <location units="Millimeters" x="194.06" y="121.555" z="-10.1" rotation="0.0"/>
+            <offsets units="Millimeters" x="-0.1" y="-4.0" z="0.0" rotation="0.0"/>
+         </feeder>
+         <feeder class="org.openpnp.machine.reference.feeder.ReferenceTrayFeeder" id="d54bf430-9880-418f-a899-1adcc4bd5d37" name="0603" enabled="false" part-id="R0603-" tray-count-x="1" tray-count-y="20" feed-count="16">
+            <location units="Millimeters" x="206.788" y="121.774" z="-10.1" rotation="0.0"/>
+            <offsets units="Millimeters" x="0.0" y="-4.0" z="0.0" rotation="0.0"/>
+         </feeder>
+         <feeder class="org.openpnp.machine.reference.feeder.ReferenceTrayFeeder" id="fece1d74-e6b5-4f35-b195-4c1e5e56f4fd" name="SOT23" enabled="false" part-id="SOT23-3-" tray-count-x="1" tray-count-y="20" feed-count="12">
+            <location units="Millimeters" x="258.335" y="122.001" z="-10.1" rotation="90.0"/>
+            <offsets units="Millimeters" x="-0.03" y="-4.0" z="0.0" rotation="0.0"/>
+         </feeder>
+         <feeder class="org.openpnp.machine.reference.feeder.ReferenceTrayFeeder" id="fe3b2044-758b-4823-bd07-ec5292cc6f31" name="TQFP-32" enabled="false" part-id="TQFP32-08-" tray-count-x="1" tray-count-y="5" feed-count="2">
+            <location units="Millimeters" x="305.753" y="89.48" z="-18.4" rotation="0.0"/>
+            <offsets units="Millimeters" x="0.0" y="-12.0" z="0.0" rotation="0.0"/>
+         </feeder>
+         <feeder class="org.openpnp.machine.reference.feeder.ReferenceTubeFeeder" id="b8341aeb-24bc-473e-b272-cb8c8ce4e904" name="0805" enabled="true" part-id="R0805-">
+            <location units="Millimeters" x="194.06" y="121.555" z="-10.0" rotation="0.0"/>
+         </feeder>
+         <feeder class="org.openpnp.machine.reference.feeder.ReferenceTubeFeeder" id="eb1cbd9f-f66a-4342-bf99-07bb2717e2cc" name="0603" enabled="true" part-id="R0603-">
+            <location units="Millimeters" x="206.788" y="121.774" z="-10.0" rotation="0.0"/>
+         </feeder>
+         <feeder class="org.openpnp.machine.reference.feeder.ReferenceTubeFeeder" id="f0c3117e-4e30-4fdf-a7c6-33686bcca5fc" name="SOT23" enabled="true" part-id="SOT23-3-">
+            <location units="Millimeters" x="258.335" y="122.001" z="-10.0" rotation="90.0"/>
+         </feeder>
+         <feeder class="org.openpnp.machine.reference.feeder.ReferenceTubeFeeder" id="0e3df832-e96b-4c41-9cb2-d432d515c348" name="TQFP-32" enabled="true" part-id="TQFP32-08-">
+            <location units="Millimeters" x="305.753" y="89.48" z="-18.0" rotation="0.0"/>
+         </feeder>
+      </feeders>
+      <cameras/>
+      <job-planner class="org.openpnp.planner.SimpleJobPlanner"/>
+      <job-processor class="org.openpnp.machine.reference.ReferenceJobProcessor" demo-mode="false"/>
+      <driver class="org.openpnp.machine.openbuilds.OpenBuildsDriver" port-name="/dev/tty.usbmodem1a1241" baud="115200" feed-rate-mm-per-minute="50000.0" z-cam-radius="24.0" z-cam-wheel-radius="9.5" z-gap="2.0"/>
+   </machine>
+</openpnp-machine>
