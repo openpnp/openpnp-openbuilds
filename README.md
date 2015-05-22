@@ -3,11 +3,11 @@ OpenPnP-OpenBuilds
 
 An OpenPnP compatible SMT pick and place machine based on [OpenBuilds](http://openbuildspartstore.com/) linear motion components.
 
-Current Status: In Development
+Current Status: Released
 
 IMPORTANT NOTE - READ THIS FIRST
 ---
-This machine was built as a prototype and development platform. It is not a final or even recommended design. This build allowed me to test out many ideas and to develop of the head, which is fairly stable. The next iteration of this design will have a much lower part count and be much easier to build. The head design will remain quite similar but the X/Y stage will be changing to linear rods and 3D printed supports.
+This machine was built as a prototype and development platform. It is not a final or even recommended design. This build allowed me to test out many ideas and to develop the head, which is fairly stable. The next iteration of this design will have a much lower part count and be much easier to build. The head design will remain quite similar but the X/Y stage will be changing to linear rods and 3D printed supports.
 
 For announcements about this and other OpenPnP hardware, please join the OpenPnP mailing list at: http://groups.google.com/group/openpnp
 
