@@ -27,5 +27,5 @@ Note that general hardware is not included in the BOM. You will need a huge vari
 
 Build Instructions
 ---
-There are currently no build instructions. I will be posting detailed pictures and some drawings in the week to come. This build will probably never be fully documented unless someone wants to volunteer to do it.
+See https://github.com/openpnp/openpnp-openbuilds/wiki/Build-Instructions
 
