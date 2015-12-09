@@ -5,11 +5,8 @@
             <nozzles>
                <nozzle class="org.openpnp.machine.reference.ReferenceNozzle" id="69edd567-df6c-495a-9b30-2fcbf5c9742f" name="N1" pick-dwell-milliseconds="250" place-dwell-milliseconds="250" current-nozzle-tip-id="e092921a-2eef-449b-b340-aa3f40d8d791" changer-enabled="false" limit-rotation="false">
                   <nozzle-tips>
-                     <nozzle-tip class="org.openpnp.machine.reference.ReferenceNozzleTip" id="e092921a-2eef-449b-b340-aa3f40d8d791" name="NT1" allow-incompatible-packages="false">
+                     <nozzle-tip class="org.openpnp.machine.reference.ReferenceNozzleTip" id="e092921a-2eef-449b-b340-aa3f40d8d791" name="NT1" allow-incompatible-packages="true">
                         <compatible-package-ids class="java.util.HashSet">
-                           <id>R0603</id>
-                           <id>SOT23-3</id>
-                           <id>R0805</id>
                         </compatible-package-ids>
                         <changer-start-location units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="0.0"/>
                         <changer-mid-location units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="0.0"/>
@@ -20,9 +17,8 @@
                </nozzle>
                <nozzle class="org.openpnp.machine.reference.ReferenceNozzle" id="269edd567-df6c-495a-9b30-2fcbf5c9742f" name="N2" pick-dwell-milliseconds="250" place-dwell-milliseconds="250" current-nozzle-tip-id="2e092921a-2eef-449b-b340-aa3f40d8d791" changer-enabled="false" limit-rotation="false">
                   <nozzle-tips>
-                     <nozzle-tip class="org.openpnp.machine.reference.ReferenceNozzleTip" id="2e092921a-2eef-449b-b340-aa3f40d8d791" name="NT1" allow-incompatible-packages="false">
+                     <nozzle-tip class="org.openpnp.machine.reference.ReferenceNozzleTip" id="2e092921a-2eef-449b-b340-aa3f40d8d791" name="NT1" allow-incompatible-packages="true">
                         <compatible-package-ids class="java.util.HashSet">
-                           <id>TQFP32-08</id>
                         </compatible-package-ids>
                         <changer-start-location units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="0.0"/>
                         <changer-mid-location units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="0.0"/>
