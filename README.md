@@ -24,6 +24,8 @@ Bill of Materials
 ---
 Bill of Materials at: https://docs.google.com/spreadsheets/d/1Jt3jb6zsk9aa-5eUBTdAOFm7u1YypV3FqZMti7bdn9s/edit?usp=sharing
 
+Be sure to select the sheet that corresponds to the version you are building.
+
 Note that the BOM is rough and several items are estimates. This machine was built as a prototype piece by piece, so it may be possible to purchase many of the items elsewhere for less cost. In addition, many items are purchased in large quantities when only a few are needed.
 
 Hardware
