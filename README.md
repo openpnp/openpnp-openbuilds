@@ -13,7 +13,7 @@ The [develop](https://github.com/openpnp/openpnp-openbuilds/tree/develop) branch
 When a new version is released it is tagged with a version number that can be used to find that set of files in the future. If you are working on a previous build you should use the files from the tagged version you built your machine from. This will ensure compatibility. The list of released versions is below:
 
 Version | Description
------------------------------------------------
+--------|------------
 1.0     | First release, demoed at Maker Faire.
 
 CAD
