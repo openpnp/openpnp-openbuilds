@@ -20,6 +20,11 @@ CAD
 ---
 CAD files are created in Cubify Design ( http://cubify.com/Products/Design ) which has a 14 day fully functional free demo and is $199.00 to purchase. I highly recommend it.
 
+Autodesk Fusion 360 versions are available at the following links. These links can be used to download the files in various formats, including STEP.
+
+Develop: http://a360.co/1UbEffq
+Master: http://a360.co/1UOBg9M
+
 Bill of Materials
 ---
 Bill of Materials at: https://docs.google.com/spreadsheets/d/1Jt3jb6zsk9aa-5eUBTdAOFm7u1YypV3FqZMti7bdn9s/edit?usp=sharing
