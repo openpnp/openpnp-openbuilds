@@ -22,8 +22,8 @@ CAD files are created in Cubify Design ( http://cubify.com/Products/Design ) whi
 
 Autodesk Fusion 360 versions are available at the following links. These links can be used to download the files in various formats, including STEP.
 
-Develop: http://a360.co/1UbEffq
-Master: http://a360.co/1UOBg9M
+* Develop: http://a360.co/1UbEffq
+* Master: http://a360.co/1UOBg9M
 
 Bill of Materials
 ---
