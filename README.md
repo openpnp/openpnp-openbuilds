@@ -14,7 +14,7 @@ When a new version is released it is tagged with a version number that can be us
 
 Version | Description
 --------|------------
-[1.0](https://github.com/openpnp/openpnp-openbuilds/tree/1.0)     | First release, demoed at Maker Faire.
+[1.0](https://github.com/openpnp/openpnp-openbuilds/tree/1.0)     | First release, demoed at Maker Faire 2015.
 
 CAD
 ---
