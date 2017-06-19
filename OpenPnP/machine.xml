@@ -73,8 +73,7 @@
          </feeder>
       </feeders>
       <cameras/>
-      <job-planner class="org.openpnp.planner.SimpleJobPlanner"/>
-      <job-processor class="org.openpnp.machine.reference.ReferenceJobProcessor" demo-mode="false"/>
+      <pnp-job-processor class="org.openpnp.machine.reference.ReferencePnpJobProcessor" />
       <driver class="org.openpnp.machine.openbuilds.OpenBuildsDriver" port-name="/dev/tty.usbmodem1a1241" baud="115200" feed-rate-mm-per-minute="50000.0" z-cam-radius="24.0" z-cam-wheel-radius="9.5" z-gap="2.0"/>
    </machine>
 </openpnp-machine>
